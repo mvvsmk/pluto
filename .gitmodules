@@ -1,9 +1,6 @@
 [submodule "isl"]
 	path = isl
 	url = https://github.com/bondhugula/isl-for-pluto.git
-[submodule "cloog-isl"]
-	path = cloog-isl
-	url = https://github.com/bondhugula/cloog.git
 [submodule "piplib"]
 	path = piplib
 	url = https://github.com/periscop/piplib.git
@@ -22,3 +19,6 @@
 [submodule "pet"]
 	path = pet
 	url = https://github.com/bondhugula/pet-for-pluto.git
+[submodule "cloog_isl"]
+	path = cloog_isl
+	url = https://github.com/mvvsmk/cloog-isl.git
