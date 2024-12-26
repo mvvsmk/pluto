@@ -27,7 +27,10 @@ bin_SCRIPTS = polycc getversion.sh
 CLEANFILES = $(bin_SCRIPTS) parsetab.py test_libpluto unit_tests
 EXTRA_DIST = polycc.sh.in  examples test
 
-pkginclude_HEADERS = include/pluto/pluto.h include/pluto/matrix.h
+pkginclude_HEADERS = \
+	include/pluto/pluto.h \
+	include/pluto/matrix.h \
+	include/pluto/osl_pluto.h
 
 polycc: polycc.sh
 	echo "#! " $(BASH) > polycc
