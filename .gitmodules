@@ -19,6 +19,6 @@
 [submodule "pet"]
 	path = pet
 	url = https://github.com/bondhugula/pet-for-pluto.git
-[submodule "cloog_isl"]
-	path = cloog_isl
+[submodule "cloog-isl"]
+	path = cloog-isl
 	url = https://github.com/mvvsmk/cloog-isl.git
