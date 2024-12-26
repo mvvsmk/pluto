@@ -30,7 +30,8 @@ EXTRA_DIST = polycc.sh.in  examples test
 pkginclude_HEADERS = \
 	include/pluto/pluto.h \
 	include/pluto/matrix.h \
-	include/pluto/osl_pluto.h
+	include/pluto/osl_pluto.h \
+	include/pluto/ast_transform.h
 
 polycc: polycc.sh
 	echo "#! " $(BASH) > polycc
